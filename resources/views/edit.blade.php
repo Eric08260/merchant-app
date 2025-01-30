@@ -43,7 +43,7 @@
                         </div>
                     @enderror
                     </div>
-
+{{-- TEST --}}
                     <div class="mb-4">
                         <label for="name">Business Owner</label>
                         <input type="text" name="owner" id="owner" placeholder="Owner" class="bg-gray-100 border-2 w-full p-4 rounded-lg" value="{{ $merchant->owner }}">
